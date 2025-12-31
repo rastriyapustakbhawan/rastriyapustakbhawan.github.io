@@ -52,10 +52,14 @@ li{
     display:inline-block;
     background:#2563eb;
     color:white;
-    padding:12px 20px;
+    padding:12px 18px;
     text-decoration:none;
     border-radius:6px;
-    margin-top:10px;
+    margin:6px 6px 0 0;
+    font-size:14px;
+}
+.btn.call{
+    background:#16a34a;
 }
 footer{
     background:#0f172a;
@@ -85,9 +89,67 @@ footer{
         <p>
         <span class="highlight">Rastriya Pustak Bhawan</span> is a trusted local
         book shop near <b>Bhola Chauraha, Badshahpur Road, Jaunpur</b>.
-        We provide quality books and stationery items for students,
-        competitive exam aspirants and general readers.
+        We provide school books, competitive exam books, stationery items
+        and general reading materials at reasonable prices.
         </p>
     </div>
 
     <div class="card">
+        <h2>📚 Available Items</h2>
+        <ul>
+            <li>School & College Books</li>
+            <li>Competitive Exam Books</li>
+            <li>Stationery Items</li>
+            <li>Novels & General Reading Books</li>
+            <li>Registers, Pens & Copies</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>📍 Contact Details</h2>
+
+        <p>
+        <b>Address:</b><br>
+        Bhola Chauraha, Badshahpur Road<br>
+        Sujanganj, Jaunpur – 222201 (UP)
+        </p>
+
+        <p>
+        <b>Mobile:</b><br>
+        📱 9453367621<br>
+        📱 9454260832
+        </p>
+
+        <p>
+        <b>Timing:</b><br>
+        Monday – Saturday : 9:00 AM – 8:00 PM
+        </p>
+
+        <!-- WhatsApp Buttons -->
+        <a class="btn" href="https://wa.me/919453367621" target="_blank">
+            📱 WhatsApp 9453367621
+        </a>
+
+        <a class="btn" href="https://wa.me/919454260832" target="_blank">
+            📱 WhatsApp 9454260832
+        </a>
+
+        <!-- Call Buttons -->
+        <a class="btn call" href="tel:9453367621">
+            📞 Call 9453367621
+        </a>
+
+        <a class="btn call" href="tel:9454260832">
+            📞 Call 9454260832
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+    © 2025 Rastriya Pustak Bhawan | All Rights Reserved
+</footer>
+
+</body>
+</html>
